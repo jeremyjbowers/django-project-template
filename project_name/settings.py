@@ -7,7 +7,9 @@ EMAIL_HOST_PASSWORD = '' # Gmail password
 ALLOWED_HOSTS = []
 AWS_ACCESS_KEY_ID = '' # The shorter one
 AWS_SECRET_ACCESS_KEY = '' # The longer one
-AWS_BUCKET_NAME = ''
+AWS_BUCKET_NAME = '' # For your static files
+AWS_BACKUP_BUCKET_NAME = '' # For database backups
+AWS_BACKUP_BUCKET_DIRECTORY = '' # A prefix for the database backup key
 
 try:
     from settings_dev import *

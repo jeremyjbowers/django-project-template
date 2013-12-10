@@ -28,3 +28,4 @@ TEMPLATE_LOADERS = (
     )),
 )
 STATIC_URL = ''
+
